@@ -10,7 +10,25 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: Column(
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Icon(
+                Icons.camera_alt,
+                color: Colors.black,
+              ),
+              Text(
+                'Instagram',
+              ),
+              Icon(
+                Icons.camera_alt,
+                color: Colors.black,
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }
